@@ -1,0 +1,55 @@
+*{
+    background-color: #06AED5;
+}
+
+h2{
+    color: #FFF1D0;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3em;
+}
+
+#image-details-container{
+    display: flex;
+    padding: 2em;
+    margin: 3em;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#player-name-container{
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: right;
+    color:#FFF1D0;
+    font-size: 2.5em;
+    border: solid black;
+    background-color: #FFF1D0;
+    margin: 0;
+    padding: 0;
+
+}
+
+#player-details-container{
+    display: flex;
+    border-bottom: 0.2em solid #FFF1D0;
+    justify-content: flex-start;
+    text-align: right;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-weight: bold;
+    color: #F0C808;
+    font-size: 2.5em;
+    line-height: 2px;
+
+}
+.puppy-image{
+    width: 25%;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+    
+}
